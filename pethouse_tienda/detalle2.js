@@ -99,7 +99,7 @@ thumbnails = [...thumbnails]
 thumbnails.forEach(thumbnail => {
     thumbnail.addEventListener('click', event=>{
         console.log(event.target.id)
-        imageContainer.style.backgroundImage = `url('../images/collar${event.target.id}.jpg')`
+        imageContainer.style.backgroundImage = `url('../images/traje${event.target.id}.jpg')`
     });
 });
 
@@ -111,7 +111,7 @@ modalthumbnails = [...modalthumbnails]
 modalthumbnails.forEach(modalthumbnail => {
     modalthumbnail.addEventListener('click', event=>{
         console.log(event.target.id.slice(-1))
-        modalImageContainer.style.backgroundImage = `url('../images/collar${event.target.id.slice(-1)}.jpg')`
+        modalImageContainer.style.backgroundImage = `url('../images/traje${event.target.id.slice(-1)}.jpg')`
     });
 });
 
@@ -152,7 +152,7 @@ closeModalNavbar.addEventListener('click', ()=>{
 function drawProductInModal(){
     productContainer.innerHTML = `
         <div class="cart-modal__details-container">
-            <img class="cart-modal__image" src="./images/collar.jpg" alt="">
+            <img class="cart-modal__image" src="./images/traje.jpg" alt="">
             <div>
             <p class="cart-modal__product">Autumn Limited Edition...</p>
             <p class="cart-modal__price">$125 x3 <span>$375.00</span> </p>
@@ -171,7 +171,7 @@ function changeNextImage(imgContainer){
     }else{
         imgIndex++;
     }
-    imgContainer.style.backgroundImage = `url('../images/collar${imgIndex}.jpg')`
+    imgContainer.style.backgroundImage = `url('../images/traje${imgIndex}.jpg')`
 }
 
 function changePreviusImage(imgContainer){
@@ -180,5 +180,5 @@ function changePreviusImage(imgContainer){
     }else{
         imgIndex--;
     }
-    imgContainer.style.backgroundImage = `url('../images/collar${imgIndex}.jpg')`
+    imgContainer.style.backgroundImage = `url('../images/traje${imgIndex}.jpg')`
 }

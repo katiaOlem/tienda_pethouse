@@ -58,7 +58,7 @@ body {
 }
 .header__cart--notification {
   display: none;
-  background-color: hsl(26deg, 100%, 55%);
+  background-color: hsl(231, 88%, 50%);
   width: 15px;
   height: 12px;
   border-radius: 16px;
@@ -82,7 +82,7 @@ body {
 }
 .header__avatar:hover {
   cursor: pointer;
-  border: 2px solid hsl(26deg, 100%, 55%);
+  border: 2px solid hsla(231, 88%, 50%);
   border-radius: 50%;
 }
 
@@ -103,7 +103,7 @@ body {
   padding-top: 42px;
 }
 .navbar__link:hover {
-  border-bottom: 4px solid hsl(26deg, 100%, 55%);
+  border-bottom: 4px solid hsl(231, 88%, 50%);
 }
 @media (min-width: 1115px) {
   .navbar {
@@ -148,7 +148,7 @@ body {
 .gallery__image-container {
   height: 300px;
   width: 100%;
-  background-image: url("../images/image-product-1.jpg");
+  background-image: url("../images/collar.jpg");
   background-position-y: -35px;
   background-size: cover;
 }
@@ -203,7 +203,7 @@ body {
 }
 .gallery__thumnail:hover {
   cursor: pointer;
-  border: 2px solid hsl(26deg, 100%, 55%);
+  border: 2px solid hsl(231, 88%, 50%);
 }
 @media (min-width: 1115px) {
   .gallery {
@@ -222,7 +222,7 @@ body {
   padding: 24px;
 }
 .details__company {
-  color: hsl(26deg, 100%, 55%);
+  color: hsl(231, 88%, 50%);
   text-transform: uppercase;
   font-size: 0.8em;
   letter-spacing: 1px;
@@ -254,7 +254,7 @@ body {
 .details__discount {
   font-size: 0.5em;
   background-color: hsl(25deg, 100%, 94%);
-  color: hsl(26deg, 100%, 55%);
+  color: hsl(231, 88%, 50%);
   padding: 4px;
   border: 4px;
 }
@@ -264,7 +264,7 @@ body {
   text-decoration: line-through;
 }
 .details__button {
-  background-color: hsl(26deg, 100%, 55%);
+  background-color: hsl(231, 88%, 50%);
   width: 100%;
   height: 57px;
   border-radius: 8px;
@@ -375,7 +375,7 @@ body {
   cursor: pointer;
 }
 .cart-modal__chekount {
-  background-color: hsl(26deg, 100%, 55%);
+  background-color: hsl(231, 88%, 50%);
   width: 100%;
   height: 57px;
   border-radius: 8px;
@@ -420,7 +420,7 @@ body {
   content: url("../images/icon-close-orange.svg");
 }
 .modal-gallery__image-container {
-  background-image: url("../images/image-product-1.jpg");
+  background-image: url("../images/traje.jpg");
   height: 446px;
   background-size: cover;
   border-radius: 16px;
@@ -439,7 +439,7 @@ body {
 }
 .modal-gallery__thumnail:hover {
   cursor: pointer;
-  border: 2px solid hsl(26deg, 100%, 55%);
+  border: 2px solid hsl(231, 88%, 50%);
 }
 .modal-gallery__previus {
   background-color: hsl(0deg, 0%, 100%);
@@ -507,5 +507,7 @@ body {
   text-align: center;
   margin-top: 30px;
 }
+
+
 
 /*# sourceMappingURL=main.css.map */
